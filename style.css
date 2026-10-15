@@ -5,47 +5,179 @@
 }
 .detail{
 
-height: 500px;
+min-height: 500px;
 width: 800px;
-background-color: rgb(0, 0, 0);
 margin: auto;
 margin-top:5vh ;
 overflow: auto;
 border-radius: 30px;
-border-left: 20px solid rgba(255, 255, 255, 0.479);
-border-right: 20px solid rgba(255, 255, 255, 0.479);
-}
-.product{
-width: 620px;
-height: 340px;
-background-color: rgba(0, 0, 139, 0.171);
-margin: auto;
-margin-top: 82px;
-border-radius: 30px;
+border-left: 20px solid  brown;
+border-right: 20px solid  brown;
+cursor:auto;
+position: relative;
+background-image: url(https://media.istockphoto.com/id/2153219027/vector/abstract-golden-light-motion-lines-on-black-background.jpg?s=612x612&w=0&k=20&c=VhDoAzVYClnle6LO0P3Y4nK4a9bcb6WLcckefZCBnyE=);
+background-size: cover;
+background-attachment: fixed;
 
 }
-.card{
-width: 270px;
-height: 340px;
-background-color:rgb(255, 68, 0);
-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 0 100%, 0 73%, 0% 43%, 0 0);
-}
-.card img{
-  width: 240px;
-  padding: 32px;
-text-align: center;
+.product{
+width: 640px;
+height: 393px;
+background-color:burlywood;
+border-radius: 10px;
 margin: auto;
-margin-top: -21px;
-margin-bottom: 10px;
-transform: rotate(20deg);
-font-size: 70px;
+margin-top: 50px;
+border: 6px solid brown;
 }
+
 h1{
-background-color: midnightblue;
-color:beige;
+background-color:burlywood;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgAbSYw0gJMolTF7ba8cFAlw0I3yL1pBgqAPHkdM02NbvSJSzPD_7nGnto&s=10);
+background-attachment: fixed;
+color:burlywood;
 font-style:italic;
 font-size: 60px;
 margin-top: 20px;
 margin: auto;
 border-style:double;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+text-decoration: none;
+color: orangered
+}
+.text{
+text-align: center;
+color:brown;
+padding: 30px;
+margin: auto;
+right: 40px;
+font-size: 20px;
+font-family: sans-serif;
+overflow:auto;
+margin-left: 160px;
+cursor:pointer;
+}
+.text b{
+  color: black;
+  margin-left: 50px;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text h2{
+color:brown;
+margin-left: 50px;
+font-size: 20px;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+color: black;
+font-size: 17px;
+text-align: center;
+margin-left: 30px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.num{
+color: black;
+font-size: 15px;
+margin-left: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.num:hover{
+background-color:black;
+  color:brown;
+  padding: 10px 20px;
+  border-radius:30px;
+  border-left: 4px solid rgba(247, 112, 112, 0.562);
+border-right:4px solid rgba(247, 112, 112, 0.562);
+border-top: 4px solid rgba(247, 112, 112, 0.562);
+border-bottom: 4px solid rgba(247, 112, 112, 0.562);
+  cursor: pointer;
+}
+.color{
+color: black;
+margin-left: 60px;
+font-size: 18px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.color img{
+width: 16px;
+}
+.circle:hover{
+border-radius: 50%;
+outline: solid black;
+outline-offset: 2px;
+
+}
+.black:hover{
+border-radius: 50%;
+outline: solid black;
+outline-offset: 2px;
+}
+.container{
+margin-right:10px;
+word-spacing:0px;
+color: black;
+font-size: 20px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.container:hover{
+color: brown
+}
+.bag{
+  width: 20px;
+  color: black;
+}
+.bag:hover{
+  color: brown;
+}
+.box{
+margin-left:-5px;
+color: black;
+font-size: 20px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box:hover{
+  color: brown;
+}
+.cart{
+  width:20px;
+}
+.sidebar{
+width: 270px;
+height:  393px;
+background-color:brown;
+clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 0 100%, 0 78%, 0% 43%, 0 0);
+position:absolute;
+margin: auto;
+display:block;
+margin-bottom: 700px;
+margin-right: 500px;
+cursor:cell;
+}
+.sidebar img{
+width: 260px; 
+  transform: skewY(18deg);
+  margin-top: 40px;
+left: 20px;
+padding:-3px;
+
+}
+i{
+color: black;
+margin-top: 10px;
+margin-right: 8px;
+}
+i:hover{
+color: brown;
+}
+.arrow{
+text-align: center;
+color: black;
+font-size: 40px;
+margin-right: 50px;
+ transform: translateY(-30px);
+}
+.arrow:hover{
+color: burlywood;
 }
